@@ -35,10 +35,29 @@ button {
   line-height: 125%;
 }
 
-form {
+#form-habits {
   display: flex;
+  padding: 0 48px;
 }
 
+.habits {
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.habit {  
+  width: 64px;
+  height: 64px;
+
+  font-size: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .days {
   display: flex;
