@@ -35,6 +35,35 @@ button {
   line-height: 125%;
 }
 
+form {
+  display: flex;
+}
+
+
+.days {
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div {
+  margin-bottom: 8px;
+
+  font-family: 'Roboto Mono';
+  font-size: 20px;
+  line-height: 125%;
+
+  color: #A1A1AA;
+  
+  text-align: center;
+}
+
 input {
   appearance: none;
   -webkit-appearance: none;
@@ -44,4 +73,9 @@ input {
 
   border: 2px solid #27272a;
   border-radius: 8px;
+}
+
+input:checked {
+  background-color: #8b5cf6;
+  border: 2px solid #A78BFA;
 }
